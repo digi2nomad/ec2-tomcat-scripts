@@ -41,7 +41,7 @@ do
      if [ $num -eq 1 ]; then
        echo -e "	${GREEN}tomcat is up${NC}"
      else
-       echo -e "	${RED}tomcat is down for : $node${NC}"
+       echo -e "	${RED}tomcat is down for : $instance${NC}"
      fi
    else
      echo -e "${RED}$instance is down${NC}"	   
